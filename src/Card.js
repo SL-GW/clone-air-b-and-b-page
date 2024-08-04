@@ -15,9 +15,9 @@ export default function Card() {
           {" "}
           <span className="rating">5.0</span>
           <span className="number"> (6)</span>{" "}
-          <span className="country">USA</span>
+          <span className="country">• USA</span>
         </span>
-        <p className="description">Life lessons with Katie Zaferes</p>
+        <h2 className="description">Life lessons with Katie Zaferes</h2>
         <p className="price">
           <strong>From $136</strong> / person
         </p>
