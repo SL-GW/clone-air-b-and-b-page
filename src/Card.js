@@ -3,7 +3,7 @@ import "./Card.css";
 import swimmer from "./swimmer.png";
 import Star from "./Star.png";
 
-export default function Card() {
+export default function Card(props) {
   return (
     <div className="Card">
       <div>
@@ -13,13 +13,13 @@ export default function Card() {
         <img className="star" src={Star} alt="star" />
         <span>
           {" "}
-          <span className="rating">5.0</span>
-          <span className="number"> (6)</span>{" "}
-          <span className="country">• USA</span>
+          <span className="rating">{props.rating}</span>
+          <span className="number"> ({props.reviwCount})</span>{" "}
+          <span className="country">• {props.country}</span>
         </span>
-        <h2 className="description">Life lessons with Katie Zaferes</h2>
+        <h2 className="description">{props.title}</h2>
         <p className="price">
-          <strong>From $136</strong> / person
+          <strong>From ${props.price}</strong> / person
         </p>
       </div>
     </div>
