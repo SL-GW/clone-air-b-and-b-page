@@ -1,5 +1,6 @@
 import "./App.css";
 import NavBar from "./NavBar";
+import swimmer from "./swimmer.png";
 import Hero from "./Hero";
 import Card from "./Card";
 
@@ -9,7 +10,7 @@ function App() {
       <NavBar />
       <Hero />
       <Card
-        img="./swimmer.png"
+        img={swimmer}
         rating={5.0}
         reviwCount={6}
         country="USA"

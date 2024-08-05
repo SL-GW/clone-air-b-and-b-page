@@ -1,13 +1,13 @@
 import React from "react";
 import "./Card.css";
-import swimmer from "./swimmer.png";
+
 import Star from "./Star.png";
 
 export default function Card(props) {
   return (
     <div className="Card">
       <div>
-        <img className="swimImage" src={swimmer} alt="female swimmer" />
+        <img className="swimImage" src={props.img} alt="female swimmer" />
       </div>
       <div className="cardInfo">
         <img className="star" src={Star} alt="star" />
