@@ -7,7 +7,7 @@ export default function Card(props) {
   return (
     <div className="Card">
       <div>
-        <img className="swimImage" src={props.img} alt="female swimmer" />
+        <img className="Image" src={props.img} alt="Activity Imgage" />
       </div>
       <div className="cardInfo">
         <img className="star" src={Star} alt="star" />
