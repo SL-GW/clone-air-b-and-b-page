@@ -7,14 +7,14 @@ export default function Card(props) {
   return (
     <div className="Card">
       <div>
-        <img className="Image" src={props.img} alt="Activity Imgage" />
+        <img className="Image" src={props.img} alt="Activity Image" />
       </div>
       <div className="cardInfo">
         <img className="star" src={Star} alt="star" />
         <span>
           {" "}
           <span className="rating">{props.rating}</span>
-          <span className="number"> ({props.reviwCount})</span>{" "}
+          <span className="number"> ({props.reviewCount})</span>{" "}
           <span className="country">• {props.country}</span>
         </span>
         <h2 className="description">{props.title}</h2>

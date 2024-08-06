@@ -24,7 +24,7 @@ export default function App() {
     <div className="App">
       <NavBar />
       <Hero />
-      <Card />
+
       <div className="card-list">{cards}</div>
     </div>
   );
