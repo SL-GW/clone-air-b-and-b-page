@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import swimmer from "./swimmer.png";
 import Hero from "./Hero";
 import Card from "./Card";
+import Data from "./Data";
 
 function App() {
   return (
